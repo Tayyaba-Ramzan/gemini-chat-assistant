@@ -9,7 +9,7 @@ GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 GEMINI_API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={GEMINI_API_KEY}"
 
 # Streamlit page config
-st.set_page_config(page_title="🤖 Gemini Chat", page_icon="💬", layout="wide")
+st.set_page_config(page_title="Gemini Chat", page_icon="🤖", layout="wide")
 
 # Sidebar
 with st.sidebar:
